@@ -1,0 +1,45 @@
+body{
+    background-color:black;
+  }
+  
+  h1{
+    color:white;
+    text-align:center;
+  }
+  
+  .container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  input{
+    padding: 3px 25px;
+  }
+  
+  button{
+    background-color: orange;
+    padding: 5px 25px;
+    border-radius: 10px;
+    margin: 10px 0;
+  }
+  
+  .result {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .right{
+    color: green;
+  }
+  
+  .wrong{
+    color: red;
+  }
+  
+  .instructions {
+    width: 35vh;
+    color: white;
+    padding: 20px;
+  }
